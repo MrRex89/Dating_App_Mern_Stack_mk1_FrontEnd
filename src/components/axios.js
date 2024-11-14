@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an instance of axios
 const instance = axios.create({
-    baseURL: "http://localhost:8001",
+    baseURL: "https://dating-app-mern-stack-mk1-backend.onrender.com/",
 });
 
 // Request Interceptor - Logs request details
